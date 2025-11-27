@@ -1,0 +1,20 @@
+package com.service;
+import com.dao.*;
+import com.employee.*;
+public class Service
+{
+  public String insert(Employee emp)throws Exception
+  {
+	  Dao d=new Dao();
+	  if(!emp.getEname().equals("Adi"))
+	  {
+	  String msg=d.insertRecord(emp);
+	  }
+	  else
+	  {
+		  System.out.println("We Not Insert Adii Name ");
+	  }
+	  return msg;
+  }
+  
+}

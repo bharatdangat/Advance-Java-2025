@@ -1,0 +1,7 @@
+public class CreateEmployee 
+{
+  ArrayList<Employee> getInfo()
+  {
+	  return null;
+  }
+}

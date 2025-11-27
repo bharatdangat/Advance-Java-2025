@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class MainDemo
+{
+	public static void main(String[] args)
+	{
+  CreateCricketer cc=new CreateCricketer();
+  ArrayList<Cricketers> a=cc.getcricketerInfo();
+  
+	}
+  }

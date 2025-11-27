@@ -1,0 +1,19 @@
+import java.util.*;
+public class CreateEmployee 
+{
+  ArrayList<Employee> getInfo()
+  {
+	 ArrayList<Employee> a1=new ArrayList<>();
+	 
+	 Address add1=new Address("hadapsar","pune");
+	 Address add2=new Address("magarrpatta","thane");
+	 Address add3=new Address("kandivali","mumbai");
+	 Employee e1=new Employee(101,"om",add1);
+	 Employee e2=new Employee(102,"sai",add2);
+	 Employee e3=new Employee(103,"ram",add3);
+	 a1.add(e1);
+	 a1.add(e2);
+	 a1.add(e3);
+	 return a1;
+  }
+}

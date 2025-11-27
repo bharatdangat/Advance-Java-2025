@@ -1,0 +1,15 @@
+public class Cricketers
+{
+  String name;
+  int jersyno;
+  Century century;
+
+  public Cricketers(String name, int jersyno, Century century) {
+	super();
+	this.name = name;
+	this.jersyno = jersyno;
+	this.century = century;
+}
+  
+  
+}

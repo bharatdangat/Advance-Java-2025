@@ -1,0 +1,30 @@
+
+public class Employee
+{
+  int eno;
+  String ename;
+  Address address;
+  Employee(int eno,String ename,Address address)
+  {
+	  this.eno=eno;
+	  this.ename=ename;
+	  this.address=address;
+  }
+
+  void setNo(int eno)
+  {
+	  this.eno=eno;
+  }
+  int getNo()
+  {
+	  return eno;
+  }
+  void setName(String ename)
+  {
+	  this.ename=ename;
+  }
+  String getName()
+  {
+	  return ename;
+  }
+  }

@@ -1,0 +1,25 @@
+import java.sql.*;
+class Dao1 //dtatabase ka code...
+{
+	void databaseCode()
+	{
+		try
+		{
+	     	Class.forName("com.mysql.cj.jdbc.Driver");
+	     	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bharat","root","root");
+	     	Statement st=con.createStatement();
+	     	ResultSet rs=st.executeQuery("Select * from cricketer");
+	     	while(rs.next())
+	     	{
+	     		int jersyno=rs.getInt(1);
+	     		String name=rs.getString(2);
+	     	}
+	     	Cricketers c1=new Cricketers(name,jersyno);
+	     	
+	     	
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}

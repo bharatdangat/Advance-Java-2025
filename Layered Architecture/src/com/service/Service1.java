@@ -1,0 +1,14 @@
+package com.service;
+import java.util.ArrayList;
+import com.employee.*;
+import com.dao.*;
+public class Service1 //Logic
+{
+ public ArrayList<Employee> getInfo()
+ {
+  Dao1 d=new Dao1();
+  ArrayList<Employee> a=d.getData();
+  	  return a;	  
+ } 
+ }
+

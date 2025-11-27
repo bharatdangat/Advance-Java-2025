@@ -1,0 +1,13 @@
+public class Century
+{
+ int t20century;
+ int wccentury;
+
+ public Century(int t20century, int wccentury) {
+	super();
+	this.t20century = t20century;
+	this.wccentury = wccentury;
+}
+  
+ 
+}

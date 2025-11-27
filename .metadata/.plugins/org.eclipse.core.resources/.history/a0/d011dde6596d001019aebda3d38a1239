@@ -1,0 +1,15 @@
+import java.util.*;
+public class CreateEmployee 
+{
+  ArrayList<Employee> getInfo()
+  {
+	 ArrayList<Employee> a1=new ArrayList<>();
+	 Employee e1=new Employee(101,"om");
+	 Employee e2=new Employee(102,"sai");
+	 Employee e3=new Employee(103,"ram");
+	 a1.add(e1);
+	 a1.add(e2);
+	 a1.add(e3);
+	 return a1;
+  }
+}

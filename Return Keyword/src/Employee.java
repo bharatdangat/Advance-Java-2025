@@ -1,0 +1,45 @@
+
+public class Employee
+{
+  private int eno;
+  private String ename;
+  private Address address;
+  Employee()
+  {
+	  
+  }
+  Employee(int eno,String ename,Address address)
+  {
+	  this.eno=eno;
+	  this.ename=ename;
+	  this.address=address;
+  }
+
+  void setNo(int eno)
+  {
+	  this.eno=eno;
+  }
+  int getNo()
+  {
+	  return eno;
+  }
+  void setName(String ename)
+  {
+	  this.ename=ename;
+  }
+  String getName()
+  {
+	  return ename;
+  }
+
+public Address getAddress()
+{
+	return address;
+}
+
+public void setAddress(Address address)
+{
+	this.address = address;
+}
+  
+  }

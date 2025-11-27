@@ -1,0 +1,14 @@
+public class Cricketers
+{
+  String name;
+  int jersyno;
+  
+  public Cricketers(String name, int jersyno) {
+	super();
+	this.name = name;
+	this.jersyno = jersyno;
+
+}
+  
+  
+}

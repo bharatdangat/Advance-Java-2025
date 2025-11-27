@@ -1,0 +1,13 @@
+package com.service;
+import com.dao.*;
+import com.employee.*;
+public class Service
+{
+  public String insert(Employee emp)throws Exception
+  {
+	  Dao d=new Dao();
+	  String msg=d.insertRecord(emp);
+	  return msg;
+  }
+  
+}

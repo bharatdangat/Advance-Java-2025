@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Main
+{
+ public static void main(String[] args)
+ {
+  Dao1 ob=new Dao1();
+  ArrayList<Cricketers> a=ob.databaseCode();
+  for(Cricketers s:a)
+  {
+	  System.out.println(s.getJersyno());
+	  System.out.println(s.getName()());
+  }
+ }
+}

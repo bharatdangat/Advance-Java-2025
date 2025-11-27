@@ -1,0 +1,19 @@
+class DemoAZ extends Thread
+{
+	@Override
+	public void run() {
+	for(char i='A';i<='Z';i++)
+	{
+		System.out.println(i);
+	}
+	}
+}
+public class AtoZ 
+{
+	public static void main(String[] args)
+	{
+     DemoAZ ob=new DemoAZ();
+     ob.start();
+	}
+
+}

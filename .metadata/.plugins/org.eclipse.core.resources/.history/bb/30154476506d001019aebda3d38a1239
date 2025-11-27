@@ -1,0 +1,31 @@
+public class Cricketers
+{
+  String name;
+  int jersyno;
+  
+  public Cricketers(String name, int jersyno) {
+	super();
+	this.name = name;
+	this.jersyno = jersyno;
+	
+}
+
+public String getName()
+{
+	return name;
+}
+
+public void setName(String name) {
+	this.name=name;
+}
+
+public int getJersyno() {
+	return jersyno;
+}
+
+public void setJersyno(int jersyno) {
+	this.jersyno = jersyno;
+}
+  
+  
+}

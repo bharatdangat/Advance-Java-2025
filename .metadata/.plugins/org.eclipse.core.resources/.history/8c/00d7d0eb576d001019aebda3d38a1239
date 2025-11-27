@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class MainEmp
+{
+	public static void main(String[] args)
+	{
+	 CreateEmployee ob=new CreateEmployee();
+	 ArrayList<Employee> a=ob.getInfo();
+	 for(Employee e:a)
+	 {
+		 System.out.println(e.getName());
+		 System.out.println(e.getNo());
+		 
+		 
+	 }
+	}
+
+}

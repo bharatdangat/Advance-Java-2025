@@ -1,0 +1,9 @@
+
+public class Main
+{
+ public static void main(String[] args)
+ {
+  Dao1 ob=new Dao1();
+  ob.databaseCode();
+ }
+}
